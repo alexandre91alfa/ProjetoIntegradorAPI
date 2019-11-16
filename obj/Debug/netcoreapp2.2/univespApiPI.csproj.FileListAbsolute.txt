@@ -1,0 +1,14 @@
+/home/alexandre/Documents/ApiDotNet/univespApiPI/bin/Debug/netcoreapp2.2/univespApiPI.deps.json
+/home/alexandre/Documents/ApiDotNet/univespApiPI/bin/Debug/netcoreapp2.2/univespApiPI.runtimeconfig.json
+/home/alexandre/Documents/ApiDotNet/univespApiPI/bin/Debug/netcoreapp2.2/univespApiPI.runtimeconfig.dev.json
+/home/alexandre/Documents/ApiDotNet/univespApiPI/bin/Debug/netcoreapp2.2/univespApiPI.dll
+/home/alexandre/Documents/ApiDotNet/univespApiPI/bin/Debug/netcoreapp2.2/univespApiPI.pdb
+/home/alexandre/Documents/ApiDotNet/univespApiPI/obj/Debug/netcoreapp2.2/univespApiPI.csprojAssemblyReference.cache
+/home/alexandre/Documents/ApiDotNet/univespApiPI/obj/Debug/netcoreapp2.2/univespApiPI.csproj.CoreCompileInputs.cache
+/home/alexandre/Documents/ApiDotNet/univespApiPI/obj/Debug/netcoreapp2.2/univespApiPI.RazorAssemblyInfo.cache
+/home/alexandre/Documents/ApiDotNet/univespApiPI/obj/Debug/netcoreapp2.2/univespApiPI.RazorAssemblyInfo.cs
+/home/alexandre/Documents/ApiDotNet/univespApiPI/obj/Debug/netcoreapp2.2/univespApiPI.AssemblyInfoInputs.cache
+/home/alexandre/Documents/ApiDotNet/univespApiPI/obj/Debug/netcoreapp2.2/univespApiPI.AssemblyInfo.cs
+/home/alexandre/Documents/ApiDotNet/univespApiPI/obj/Debug/netcoreapp2.2/univespApiPI.RazorTargetAssemblyInfo.cache
+/home/alexandre/Documents/ApiDotNet/univespApiPI/obj/Debug/netcoreapp2.2/univespApiPI.dll
+/home/alexandre/Documents/ApiDotNet/univespApiPI/obj/Debug/netcoreapp2.2/univespApiPI.pdb
