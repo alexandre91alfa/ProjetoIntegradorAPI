@@ -7,7 +7,7 @@ using Microsoft.AspNetCore.Mvc;
 namespace univespApiPI.Controllers
 {
     [Route("v1")]
-    class FuncController : Controller
+    public class FuncController : Controller
     {
 
         FuncController()

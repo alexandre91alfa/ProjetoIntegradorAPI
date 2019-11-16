@@ -1,7 +1,7 @@
 
-namespace univespApiPI.Controllers
+namespace univespApiPI.model
 {
-    class Staff
+    public class Staff
     {
         public int id { get; set; }
         public string name { get; set; }
