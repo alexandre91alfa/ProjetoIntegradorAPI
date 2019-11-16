@@ -47,6 +47,7 @@ namespace univespApiPI.Controllers
         [HttpPost("v1/add")]
         public async Task<IActionResult> PostAdicionar(Staff func)
         {
+
             if (!string.IsNullOrEmpty(func.id.ToString())
             && !string.IsNullOrEmpty(func.name.ToString())
             && !string.IsNullOrEmpty(func.function.ToString())
