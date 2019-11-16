@@ -10,6 +10,7 @@ using univespApiPI.repository;
 
 namespace univespApiPI.Controllers
 {
+    [Route("v1")]
     public class FuncController : Controller
     {
         private readonly DbFunc _context;
@@ -18,7 +19,7 @@ namespace univespApiPI.Controllers
         {
             _context = context;
         }
-        [HttpGet("v1/staff")]
+        [HttpGet("staff")]
         public async Task<IActionResult> GetFuncionarios()
         {
             try
@@ -31,7 +32,7 @@ namespace univespApiPI.Controllers
                 return this.StatusCode(StatusCodes.Status500InternalServerError, "Erro Connect DB");
             }
         }
-        [HttpGet("v1/{id}")]
+        [HttpGet("{id}")]
         public async Task<IActionResult> GetOneFuncionarios(int id)
         {
             try
@@ -44,7 +45,7 @@ namespace univespApiPI.Controllers
                 return this.StatusCode(StatusCodes.Status500InternalServerError, "Erro Connect DB");
             }
         }
-        [HttpPost("v1/add")]
+        [HttpPost("add")]
         public async Task<IActionResult> PostAdicionar(Staff func)
         {
 
@@ -72,6 +73,16 @@ namespace univespApiPI.Controllers
 
             }
 
+        }
+        [HttpPut("{id}")]
+        public void Put(int id, [FromBody] string value)
+        {
+        }
+
+        // DELETE api/values/5
+        [HttpDelete("{id}")]
+        public void Delete(int id)
+        {
         }
     }
 }
