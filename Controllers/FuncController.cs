@@ -74,15 +74,42 @@ namespace univespApiPI.Controllers
             }
 
         }
-        [HttpPut("{id}")]
-        public void Put(int id, [FromBody] string value)
+        [HttpPut("pstaff/{id}")]
+        public async Task<IActionResult> PutStaff(long id, Staff func)
         {
+            if (id != func.id)
+            {
+                return BadRequest();
+            }
+
+            _context.Entry(func).State = EntityState.Modified;
+
+            try
+            {
+                await _context.SaveChangesAsync();
+            }
+            catch (DbUpdateConcurrencyException)
+            {
+                return NotFound();
+            }
+
+            return Ok("Alteração feita com sucesso");
         }
 
-        // DELETE api/values/5
-        [HttpDelete("{id}")]
-        public void Delete(int id)
+        // DELETE: v1/5
+        [HttpDelete("delstaff/{id}")]
+        public async Task<ActionResult<Staff>> DeleteStaff(long id)
         {
+            var staff = await _context.staffs.FirstOrDefaultAsync(x => x.id == id);
+            if (staff == null)
+            {
+                return NotFound();
+            }
+
+            _context.staffs.Remove(staff);
+            await _context.SaveChangesAsync();
+
+            return Ok($"Id: {id} deletado com sucesso");
         }
     }
 }
