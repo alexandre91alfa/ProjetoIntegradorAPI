@@ -4,6 +4,6 @@
 ###########################
 .vscode/
 .vs/
-obj/
-bin/
+obj/*
+bin/*
 appsettings.Development.json
