@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using univespApiPI.model;
@@ -28,7 +29,7 @@ namespace univespApiPI.Controllers
             }
             catch (System.Exception)
             {
-                return NotFound();
+                return this.StatusCode(StatusCodes.Status500InternalServerError, "Erro Connect DB");
             }
         }
         [HttpGet("v1/{id}")]
@@ -41,23 +42,36 @@ namespace univespApiPI.Controllers
             }
             catch (System.Exception)
             {
-                return NotFound();
+                return this.StatusCode(StatusCodes.Status500InternalServerError, "Erro Connect DB");
             }
         }
         [HttpPost("v1/add")]
         public async Task<IActionResult> PostAdicionar(Staff func)
         {
+            if (!string.IsNullOrEmpty(func.id.ToString())
+            && !string.IsNullOrEmpty(func.name.ToString())
+            && !string.IsNullOrEmpty(func.function.ToString())
+            && !string.IsNullOrEmpty(func.rg.ToString())
+            && !string.IsNullOrEmpty(func.imgUrl.ToString()))
+            {
 
-            try
-            {
-                _context.Add(func);
-                await _context.SaveChangesAsync();
-                return Ok($"Dados Salvos com sucesso {CreatedAtAction("Get", new { id = func.id }, func)}");
+                try
+                {
+                    _context.Add(func);
+                    await _context.SaveChangesAsync();
+                    return Ok($"Dados Salvos com sucesso {CreatedAtAction("Get", new { id = func.id }, func)}");
+                }
+                catch (System.Exception)
+                {
+                    return this.StatusCode(StatusCodes.Status500InternalServerError, "Erro Connect DB");
+                }
             }
-            catch (System.Exception)
+            else
             {
-                return NotFound();
+                return this.StatusCode(StatusCodes.Status406NotAcceptable, "value null");
+
             }
+
         }
     }
 }
