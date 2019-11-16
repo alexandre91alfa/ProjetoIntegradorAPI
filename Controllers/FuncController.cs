@@ -10,7 +10,6 @@ using univespApiPI.repository;
 
 namespace univespApiPI.Controllers
 {
-    [Route("v1")]
     public class FuncController : Controller
     {
         private readonly DbFunc _context;
@@ -59,7 +58,7 @@ namespace univespApiPI.Controllers
                 {
                     _context.Add(func);
                     await _context.SaveChangesAsync();
-                    return Ok($"Dados Salvos com sucesso {CreatedAtAction("Get", new { id = func.id }, func)}");
+                    return Ok("Dados Salvos com sucesso");
                 }
                 catch (System.Exception)
                 {

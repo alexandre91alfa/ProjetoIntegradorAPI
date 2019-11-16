@@ -26,9 +26,9 @@ namespace univespApiPI
 
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddCors();
             services.AddDbContext<DbFunc>(data => data.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
-            services.AddCors();
         }
 
         public void Configure(IApplicationBuilder app, IHostingEnvironment env)
