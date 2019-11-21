@@ -1,0 +1,14 @@
+/home/alexandre/Documents/ApiDotNet/univespApiPI/qualita.WebApi/bin/Debug/netcoreapp2.2/univespApi.deps.json
+/home/alexandre/Documents/ApiDotNet/univespApiPI/qualita.WebApi/bin/Debug/netcoreapp2.2/univespApi.runtimeconfig.json
+/home/alexandre/Documents/ApiDotNet/univespApiPI/qualita.WebApi/bin/Debug/netcoreapp2.2/univespApi.runtimeconfig.dev.json
+/home/alexandre/Documents/ApiDotNet/univespApiPI/qualita.WebApi/bin/Debug/netcoreapp2.2/univespApi.dll
+/home/alexandre/Documents/ApiDotNet/univespApiPI/qualita.WebApi/bin/Debug/netcoreapp2.2/univespApi.pdb
+/home/alexandre/Documents/ApiDotNet/univespApiPI/qualita.WebApi/obj/Debug/netcoreapp2.2/univespApi.csprojAssemblyReference.cache
+/home/alexandre/Documents/ApiDotNet/univespApiPI/qualita.WebApi/obj/Debug/netcoreapp2.2/univespApi.csproj.CoreCompileInputs.cache
+/home/alexandre/Documents/ApiDotNet/univespApiPI/qualita.WebApi/obj/Debug/netcoreapp2.2/univespApi.RazorAssemblyInfo.cache
+/home/alexandre/Documents/ApiDotNet/univespApiPI/qualita.WebApi/obj/Debug/netcoreapp2.2/univespApi.RazorAssemblyInfo.cs
+/home/alexandre/Documents/ApiDotNet/univespApiPI/qualita.WebApi/obj/Debug/netcoreapp2.2/univespApi.AssemblyInfoInputs.cache
+/home/alexandre/Documents/ApiDotNet/univespApiPI/qualita.WebApi/obj/Debug/netcoreapp2.2/univespApi.AssemblyInfo.cs
+/home/alexandre/Documents/ApiDotNet/univespApiPI/qualita.WebApi/obj/Debug/netcoreapp2.2/univespApi.RazorTargetAssemblyInfo.cache
+/home/alexandre/Documents/ApiDotNet/univespApiPI/qualita.WebApi/obj/Debug/netcoreapp2.2/univespApi.dll
+/home/alexandre/Documents/ApiDotNet/univespApiPI/qualita.WebApi/obj/Debug/netcoreapp2.2/univespApi.pdb
