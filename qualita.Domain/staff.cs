@@ -8,5 +8,6 @@ namespace qualita.Domain
         public string function { get; set; }
         public int rg { get; set; }
         public string imgUrl { get; set; }
+        //public List<Quantitativo> quanti { get; set; }
     }
 }

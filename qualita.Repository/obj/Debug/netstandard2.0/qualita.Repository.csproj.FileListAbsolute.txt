@@ -1,0 +1,12 @@
+/home/alexandre/Documents/ApiDotNet/univespApiPI/qualita.Repository/bin/Debug/netstandard2.0/qualita.Repository.deps.json
+/home/alexandre/Documents/ApiDotNet/univespApiPI/qualita.Repository/bin/Debug/netstandard2.0/qualita.Repository.dll
+/home/alexandre/Documents/ApiDotNet/univespApiPI/qualita.Repository/bin/Debug/netstandard2.0/qualita.Repository.pdb
+/home/alexandre/Documents/ApiDotNet/univespApiPI/qualita.Repository/bin/Debug/netstandard2.0/qualita.Domain.dll
+/home/alexandre/Documents/ApiDotNet/univespApiPI/qualita.Repository/bin/Debug/netstandard2.0/qualita.Domain.pdb
+/home/alexandre/Documents/ApiDotNet/univespApiPI/qualita.Repository/obj/Debug/netstandard2.0/qualita.Repository.csprojAssemblyReference.cache
+/home/alexandre/Documents/ApiDotNet/univespApiPI/qualita.Repository/obj/Debug/netstandard2.0/qualita.Repository.csproj.CoreCompileInputs.cache
+/home/alexandre/Documents/ApiDotNet/univespApiPI/qualita.Repository/obj/Debug/netstandard2.0/qualita.Repository.AssemblyInfoInputs.cache
+/home/alexandre/Documents/ApiDotNet/univespApiPI/qualita.Repository/obj/Debug/netstandard2.0/qualita.Repository.AssemblyInfo.cs
+/home/alexandre/Documents/ApiDotNet/univespApiPI/qualita.Repository/obj/Debug/netstandard2.0/qualita.Repository.csproj.CopyComplete
+/home/alexandre/Documents/ApiDotNet/univespApiPI/qualita.Repository/obj/Debug/netstandard2.0/qualita.Repository.dll
+/home/alexandre/Documents/ApiDotNet/univespApiPI/qualita.Repository/obj/Debug/netstandard2.0/qualita.Repository.pdb

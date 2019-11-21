@@ -25,6 +25,16 @@
         "build": {
           "build/netstandard2.0/NETStandard.Library.targets": {}
         }
+      },
+      "qualita.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/qualita.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/qualita.Domain.dll": {}
+        }
       }
     }
   },
@@ -171,11 +181,17 @@
         "netstandard.library.2.0.3.nupkg.sha512",
         "netstandard.library.nuspec"
       ]
+    },
+    "qualita.Domain/1.0.0": {
+      "type": "project",
+      "path": "../qualita.Domain/qualita.Domain.csproj",
+      "msbuildProject": "../qualita.Domain/qualita.Domain.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.0": [
-      "NETStandard.Library >= 2.0.3"
+      "NETStandard.Library >= 2.0.3",
+      "qualita.Domain >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -205,7 +221,11 @@
       },
       "frameworks": {
         "netstandard2.0": {
-          "projectReferences": {}
+          "projectReferences": {
+            "/home/alexandre/Documents/ApiDotNet/univespApiPI/qualita.Domain/qualita.Domain.csproj": {
+              "projectPath": "/home/alexandre/Documents/ApiDotNet/univespApiPI/qualita.Domain/qualita.Domain.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

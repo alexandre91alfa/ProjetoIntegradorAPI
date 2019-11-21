@@ -26,13 +26,33 @@
         "dependencies": {
           "Microsoft.AspNetCore.App": "2.2.0",
           "Microsoft.AspNetCore.Razor.Design": "2.2.0",
-          "Microsoft.NETCore.App": "2.2.0"
+          "Microsoft.NETCore.App": "2.2.0",
+          "qualita.Repository": "1.0.0"
         },
         "runtime": {
           "univespApi.dll": {}
         },
         "compile": {
           "univespApi.dll": {}
+        }
+      },
+      "qualita.Domain/1.0.0": {
+        "runtime": {
+          "qualita.Domain.dll": {}
+        },
+        "compile": {
+          "qualita.Domain.dll": {}
+        }
+      },
+      "qualita.Repository/1.0.0": {
+        "dependencies": {
+          "qualita.Domain": "1.0.0"
+        },
+        "runtime": {
+          "qualita.Repository.dll": {}
+        },
+        "compile": {
+          "qualita.Repository.dll": {}
         }
       },
       "Microsoft.AspNet.WebApi.Client/5.2.6": {
@@ -3233,6 +3253,16 @@
   },
   "libraries": {
     "univespApi/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "qualita.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "qualita.Repository/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

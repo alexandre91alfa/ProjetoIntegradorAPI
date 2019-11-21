@@ -12,3 +12,8 @@
 /home/alexandre/Documents/ApiDotNet/univespApiPI/qualita.WebApi/obj/Debug/netcoreapp2.2/univespApi.RazorTargetAssemblyInfo.cache
 /home/alexandre/Documents/ApiDotNet/univespApiPI/qualita.WebApi/obj/Debug/netcoreapp2.2/univespApi.dll
 /home/alexandre/Documents/ApiDotNet/univespApiPI/qualita.WebApi/obj/Debug/netcoreapp2.2/univespApi.pdb
+/home/alexandre/Documents/ApiDotNet/univespApiPI/qualita.WebApi/bin/Debug/netcoreapp2.2/qualita.Domain.dll
+/home/alexandre/Documents/ApiDotNet/univespApiPI/qualita.WebApi/bin/Debug/netcoreapp2.2/qualita.Repository.dll
+/home/alexandre/Documents/ApiDotNet/univespApiPI/qualita.WebApi/bin/Debug/netcoreapp2.2/qualita.Repository.pdb
+/home/alexandre/Documents/ApiDotNet/univespApiPI/qualita.WebApi/bin/Debug/netcoreapp2.2/qualita.Domain.pdb
+/home/alexandre/Documents/ApiDotNet/univespApiPI/qualita.WebApi/obj/Debug/netcoreapp2.2/univespApi.csproj.CopyComplete

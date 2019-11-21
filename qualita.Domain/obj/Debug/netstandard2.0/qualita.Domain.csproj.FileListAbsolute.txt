@@ -1,0 +1,9 @@
+/home/alexandre/Documents/ApiDotNet/univespApiPI/qualita.Domain/bin/Debug/netstandard2.0/qualita.Domain.deps.json
+/home/alexandre/Documents/ApiDotNet/univespApiPI/qualita.Domain/bin/Debug/netstandard2.0/qualita.Domain.dll
+/home/alexandre/Documents/ApiDotNet/univespApiPI/qualita.Domain/bin/Debug/netstandard2.0/qualita.Domain.pdb
+/home/alexandre/Documents/ApiDotNet/univespApiPI/qualita.Domain/obj/Debug/netstandard2.0/qualita.Domain.csprojAssemblyReference.cache
+/home/alexandre/Documents/ApiDotNet/univespApiPI/qualita.Domain/obj/Debug/netstandard2.0/qualita.Domain.csproj.CoreCompileInputs.cache
+/home/alexandre/Documents/ApiDotNet/univespApiPI/qualita.Domain/obj/Debug/netstandard2.0/qualita.Domain.AssemblyInfoInputs.cache
+/home/alexandre/Documents/ApiDotNet/univespApiPI/qualita.Domain/obj/Debug/netstandard2.0/qualita.Domain.AssemblyInfo.cs
+/home/alexandre/Documents/ApiDotNet/univespApiPI/qualita.Domain/obj/Debug/netstandard2.0/qualita.Domain.dll
+/home/alexandre/Documents/ApiDotNet/univespApiPI/qualita.Domain/obj/Debug/netstandard2.0/qualita.Domain.pdb

@@ -4438,6 +4438,29 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XPath.XDocument.dll": {}
         }
+      },
+      "qualita.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/qualita.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/qualita.Domain.dll": {}
+        }
+      },
+      "qualita.Repository/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "qualita.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/qualita.Repository.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/qualita.Repository.dll": {}
+        }
       }
     }
   },
@@ -12064,13 +12087,24 @@
         "system.xml.xpath.xdocument.4.3.0.nupkg.sha512",
         "system.xml.xpath.xdocument.nuspec"
       ]
+    },
+    "qualita.Domain/1.0.0": {
+      "type": "project",
+      "path": "../qualita.Domain/qualita.Domain.csproj",
+      "msbuildProject": "../qualita.Domain/qualita.Domain.csproj"
+    },
+    "qualita.Repository/1.0.0": {
+      "type": "project",
+      "path": "../qualita.Repository/qualita.Repository.csproj",
+      "msbuildProject": "../qualita.Repository/qualita.Repository.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.2": [
       "Microsoft.AspNetCore.App >= 2.2.0",
       "Microsoft.AspNetCore.Razor.Design >= 2.2.0",
-      "Microsoft.NETCore.App >= 2.2.0"
+      "Microsoft.NETCore.App >= 2.2.0",
+      "qualita.Repository >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -12100,7 +12134,11 @@
       },
       "frameworks": {
         "netcoreapp2.2": {
-          "projectReferences": {}
+          "projectReferences": {
+            "/home/alexandre/Documents/ApiDotNet/univespApiPI/qualita.Repository/qualita.Repository.csproj": {
+              "projectPath": "/home/alexandre/Documents/ApiDotNet/univespApiPI/qualita.Repository/qualita.Repository.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

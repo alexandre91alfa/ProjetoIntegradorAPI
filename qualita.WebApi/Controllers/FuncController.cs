@@ -3,7 +3,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using qualita.WebApi.model;
+using qualita.Domain;
 using qualita.WebApi.repository;
 
 namespace qualita.WebApi.Controllers
